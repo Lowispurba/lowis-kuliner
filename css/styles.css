@@ -81,6 +81,12 @@ header h1 {
     margin-bottom: 10px;
 }
 
+.pemesanan button a {
+	text-decoration: none;
+	color : white;
+}
+	
+
 .pemesanan button {
     background-color: green;
     color: white;
@@ -165,6 +171,54 @@ header h1 {
     font-size: 15px;
     text-align: center;
     margin-bottom: 10px;
+}
+
+.menu-content button {
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.menu-content button a {
+	text-decoration: none;
+	color: white;
+}
+
+.berita-terbaru {
+    width: 20%;
+    border: 1px solid grey;
+    padding: 6px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.berita-terbaru h1 {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.berita-terbaru ul {
+    list-style-type: none ;
+}
+
+.berita-terbaru ul li a {
+    color: black;
+    font-size: 15px;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 footer {
